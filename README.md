@@ -25,5 +25,6 @@ This category adds block support for `NSObject<NSKeyValueObserving>` which makes
   
   // explicit ignoring
   [[self awesomeShit] removeObserverBlock:[self observerBlock] forKeyPath:@"evenMoreAwesomeProperty"];
+  [self setOberverBlock:nil];
 }
 ```
